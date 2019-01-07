@@ -15,3 +15,6 @@ https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minute
 - completed: boolean not null
 - toDelete: boolean not null
 ------------------------------------------------------
+
+
+By: Edmundo Rubio
