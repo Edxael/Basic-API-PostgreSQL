@@ -16,11 +16,15 @@ app.use('/api/V1', router)
 
 // ===[ API-ROUTES ]=============================
 // ---> End-Point for Automatic Distributors ----------------
-router.route('/allTask').get(async (req, res) => {
+router.route('/tasks/allTasks').get(async (req, res) => {
   console.log("Request for all tasks")
   dbTaskMethods.getAllTasks()
     .then((resp) => { res.json(resp) })
     .catch((err) => { console.log("Erro[01]: ", err) })
+  
+})
+
+router.route('/tasks/addTask').post(async (req, res) => {
   
 })
 

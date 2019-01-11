@@ -7,5 +7,10 @@ module.exports = {
     return new Promise((resolve, reject) => {
       resolve({ success: true, tasks: [1, 2, 3] })
     })
+  },
+  addOneTask: () => {
+    return new Promise((resolve, reject) => {
+      resolve({ { success: true, tasks: [1] })
+    })
   }
 }
